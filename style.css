@@ -1,0 +1,37 @@
+li> ul{
+    display: none;
+}
+ul{
+    display:block;
+    width:min-content;
+    height:min-content;
+}
+.sous-menu1{
+    top:98px;
+    left: 120px;
+    position:absolute;
+
+}
+
+.sous-menu2{
+    top:115px;
+    left: 120px;
+    position:absolute;
+
+}
+li:hover ul  {
+    display:block;
+  }
+
+  a:hover  {
+    background-color: pink;
+
+  }
+
+p{
+    color: antiquewhite;
+    top:65px;
+    left: 160px;
+    position: absolute;
+    z-index: -1;
+}
